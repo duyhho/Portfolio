@@ -10,10 +10,13 @@ function Type() {
           "Object Detection",
           "AI-Empowered Robotics",
           "3D Application Development",
+          "Reinforcement Learning",
+          "Digital Twins"
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 110,
+        delay: 50
       }}
     />
   );
