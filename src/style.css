@@ -23,7 +23,6 @@
 
 html {
   --section-background-color: var(--background-color);
-
   --image-gradient: linear-gradient(to bottom left,
       var(--image-gradient-light-color),
       var(--image-gradient-dark-color));
