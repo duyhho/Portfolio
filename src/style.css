@@ -1,7 +1,5 @@
 :root {
-  --scrollbar-track-color: #1A237E;
-  --scrollbar-thumb-color: #5C6BC0;
-  --scrollbar-thumb-hover-color: #9FA8DA;
+
   --image-gradient-light-color: rgba(255, 255, 255, 0.777);
   /* Light white with opacity */
   --image-gradient-dark-color: rgba(255, 255, 255, 0.556);
@@ -19,6 +17,9 @@
   /* Black */
   --link-hover-bg: var(--light-blue);
   --background-color: white;
+  --scrollbar-track-color: white;
+  --scrollbar-thumb-color: var(--primary-blue);
+  --scrollbar-thumb-hover-color: #9FA8DA;
 }
 
 html {
@@ -46,14 +47,15 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
+  background-color: #ffffff;
+  /* background-image: url(./Assets/pre.svg); */
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #preloader-none {
   opacity: 0;
+  display: none
 }
 
 #no-scroll {
@@ -505,6 +507,21 @@ button:focus {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
   padding: 0 !important;
+}
+
+.githubIcon {
+  color: white;
+  /* Normal icon color */
+  margin-left: 5px;
+  /* Optional: Adds some space between the text and the icon */
+  text-decoration: none;
+  /* Removes underline from the link */
+}
+
+.githubIcon:hover,
+.githubIcon:focus {
+  color: #4285F4;
+  /* Color on hover and focus */
 }
 
 .blockquote-footer {
