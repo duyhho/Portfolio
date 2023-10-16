@@ -297,6 +297,7 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  background-size: cover;
 }
 
 .home-content {
@@ -642,15 +643,15 @@ button:focus {
 
 .tech-icons {
   font-size: 4.5em !important;
-  margin: 15px !important;
-  padding: 10px !important;
+  margin: 10px !important;
+  padding: 5px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid var(--light-blue) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px var(--primary-blue) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -703,8 +704,8 @@ button:focus {
 }
 
 .resume {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-top: 50px; */
+  /* padding-bottom: 50px; */
   justify-content: center;
 }
 

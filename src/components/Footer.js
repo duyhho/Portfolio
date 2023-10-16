@@ -14,19 +14,19 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Duy Hoang Ho
-            (inspired by<a href="https://github.com/soumyajit4419" className="githubIcon">
+          <h3>Duy Ho
+            (inspired by<a href="https://github.com/duyhho" className="githubIcon">
               <AiFillGithub style={{ marginBottom: 3, marginLeft: -2, fontSize: 18 }} />
             </a>)  </h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Ph.D. Candidate (2023)</h3>
+          <h3>dhh3hb@umsystem.edu</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href=""
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -36,7 +36,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href=""
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -46,7 +46,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href=""
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -56,7 +56,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href=""
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -64,6 +64,10 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
+            <li className='social-icons'>
+              <i className="ai ai-google-scholar-square" style={{ color: 'white', transform: 'translateY(2px)' }}></i>
+            </li>
+
           </ul>
         </Col>
       </Row>
